@@ -1,35 +1,98 @@
+body {
+    margin: 0px;
+    background: #E3EEF8;
+}
+
+section {
+    padding: 0px 57px;
+
+}
+
 .box {
-    width: 312px;
-    height: 242px;
     padding: 21px;
-   
+    margin-top: 43px;
     background: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
     border-radius: 5px;
-    border: 2px solid black;
 
     p {
+        margin-top:0px;
         font-family: Rubik;
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
         line-height: 32px;
-        /* or 213% */
-
         letter-spacing: -0.1px;
-
         color: #1F1F1F;
     }
 
+}
+
+.subscribtion-box {
+    border: 2px solid blue;
+    padding-left: 45px;
 }
 
 .flex {
     display: flex;
 }
 
+
 .oval {
     width: 43px;
     height: 43px;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+}
+
+.logos {
+    margin-top: 137px;
+    margin-bottom: 165px;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 32px;
+
+    
+
+    img {
+        margin-bottom: 34px;
+    }
+
+}
+.karla-blue-15px {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2.8125px;
+    text-transform: uppercase;
+    color: #258AFF;
+}
+
+.karla-black-30px {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -2.52632px;
+    color: #1F1F1F;
+
+
+}
+
+.karla-grey-15px {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 32px;
+    color: #666666;
+
 }
 
 .card-user-info {
@@ -45,10 +108,7 @@
         font-weight: bold;
         font-size: 15px;
         line-height: 28px;
-        /* identical to box height, or 187% */
-
         letter-spacing: -0.31875px;
-
         color: #1F1F1F;
 
     }
@@ -59,10 +119,7 @@
         font-weight: normal;
         font-size: 12px;
         line-height: 28px;
-        /* identical to box height, or 233% */
-
         letter-spacing: -0.4px;
-
         color: #666666;
 
     }
