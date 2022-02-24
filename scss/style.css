@@ -26,6 +26,108 @@
   background: #FC593B;
 }
 
+.rubik-12px {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -1px;
+}
+
+.karla-blue-15px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2.8125px;
+  text-transform: uppercase;
+  color: #258AFF;
+}
+
+.karla-black-30px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #1F1F1F;
+}
+
+.karla-white-30px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #FFFFFF;
+}
+
+.karla-12px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: -0.4px;
+}
+
+.karla-13px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0.433333px;
+  text-transform: uppercase;
+}
+
+.karla-14px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+
+.karla-15px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.karla-dollar-sign {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -1.2px;
+}
+
+.karla-30px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+.karla-20px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.68px;
+}
+
 body {
   margin: 0px;
   background: #E3EEF8;
@@ -39,6 +141,32 @@ button {
   border-radius: 5px;
   width: 181px;
   border: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 50px;
+}
+
+ul li {
+  margin-bottom: 12px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  /* or 267% */
+  letter-spacing: -0.4px;
+  color: #1F1F1F;
+}
+
+footer {
+  margin: 0px 57px;
+}
+
+footer img {
+  padding: 18px 5px 18px 2px;
 }
 
 #taste-it {
@@ -140,6 +268,10 @@ button {
   display: flex;
 }
 
+.gap-10px {
+  gap: 10px;
+}
+
 .space-between {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -176,88 +308,8 @@ button {
   margin-bottom: 34px;
 }
 
-.karla-blue-15px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: 2.8125px;
-  text-transform: uppercase;
-  color: #258AFF;
-}
-
-.karla-black-30px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 30px;
-  letter-spacing: -2.52632px;
-  color: #1F1F1F;
-}
-
-.karla-white-30px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 30px;
-  letter-spacing: -2.52632px;
-  color: #FFFFFF;
-}
-
-.karla-13px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 32px;
-  letter-spacing: 0.433333px;
-  text-transform: uppercase;
-}
-
-.karla-dollar-sign {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -1.2px;
-}
-
-.karla-30px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 60px;
-  letter-spacing: -2px;
-}
-
-.karla-20px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: -0.68px;
-}
-
-.karla-12px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 23px;
-  letter-spacing: -0.4px;
-}
-
-.karla-15px {
-  font-family: Karla;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
+.margin-bottom-30px {
+  margin-bottom: 30px;
 }
 
 .letter-spacing-0425 {
