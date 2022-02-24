@@ -1,0 +1,201 @@
+/* reset H elements*/
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+/* reset H elements*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    background-color: #E3EEF8;
+    font-family: 'Karla', sans-serif;
+}
+
+.all {
+    max-width: 75%;
+    margin: auto;
+}
+
+@mixin topAndBottomPadding {
+    padding: 7% 0 7% 0;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexColumnLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin grayAndSmall {
+    color: #666666;
+    font-size: 75%;
+}
+
+@mixin lineHeight {
+    line-height: 28px;
+}
+
+$blue: #258AFF;
+
+header {
+    @include flexRow;
+    button {
+        background: none;
+        border: 0;
+    }
+}
+
+
+.firstSection {
+    @include flexColumn;
+    @include grayAndSmall;
+    @include topAndBottomPadding;
+    h3, p {
+        text-align: center
+    }
+    h3 {
+        color: black;
+        font-size: 200%;
+        font-weight: 700
+    }
+    input {
+        border: 0;
+        border-radius: 0.4em;
+        padding: 3% 0 3% 2%;
+    }
+}
+
+.present {
+    @include flexColumn;
+    p {
+        @include lineHeight;
+    }
+}
+
+.emailAndStarted {
+    @include flexRow;
+    button {
+        color: white;
+        background-color: #FC593B;
+        border: none;
+        padding: 2% 0;
+        border-radius: 0.4em;
+    }
+}
+
+.advantages {
+    @include flexColumn;
+    .adv {
+        @include flexColumn;
+        .advText {
+            @include flexColumnLeft()
+        }
+    }
+}
+
+.secondSection {
+    position: relative;
+    right: 15%;
+    width: 130%;
+    margin: auto;
+    background-color: $blue;
+    @include flexColumnLeft;
+    @include topAndBottomPadding;
+    button {
+        color: $blue;
+        border: none;
+        padding: 2% 25%;
+        border-radius: 0.4em;
+    }
+    p {
+        @include lineHeight
+    }
+    h3 {
+        font-size: 200%;
+        font-weight: 700
+    }
+    img {
+        float: inline-start;
+        margin: 5px;
+    }
+}
+
+.secondSectionText {
+    width: 80%;
+    margin: auto;
+    color: white;
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+     font-size: 15px;
+    }
+}
+
+.thirdSection {
+    max-width: 75%;
+    @include topAndBottomPadding;
+    @include flexColumn;
+    img {
+        object-fit: cover
+    }
+}
+
+.sameThanAbove {
+    @include flexColumn;
+    h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+.blueText {
+    color: $blue;
+}
+
+.easyBeautiful {
+    max-width: 75%;
+    @include flexColumnLeft;
+}
+
+.easy {
+    @include flexColumnLeft;
+    h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.beautiful {
+    @include flexColumnLeft;
+    h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.advText {
+    @include flexColumnLeft()
+}
