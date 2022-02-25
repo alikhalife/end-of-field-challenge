@@ -127,7 +127,7 @@ footer {
     }
 }
 
-.subscribtion-box {
+.subscription-box {
     padding: 21px;
     border-radius: 6px;
     margin-bottom: 49px;
@@ -177,10 +177,12 @@ footer {
 
 }
 
-
-
 .margin-bottom-30px {
     margin-bottom: 30px;
+}
+
+.margin-bottom-38px {
+    margin-bottom: 38px;
 }
 .letter-spacing-0425 {
     letter-spacing: -0.425px;
@@ -222,20 +224,32 @@ footer {
 
     footer {
         display: flex;
+        justify-content: space-around;
+        padding-top: 163px;
     }
 
-    // #footer-logo {
-
-    // }
+    #footer-logo {
+        width: 318px;
+        p {
+            font-size: 25px;
+        }
+        
+        #footer-text {
+            font-size: 16px;
+        }
+    }
 
     #footer-menu {
         display: flex;
+        gap: 66px;
+        margin-left: 80px;
     }
 
     #customer-story {
         padding: 16px 57px;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     #customer {
@@ -265,21 +279,27 @@ footer {
         width: 245px;
     }
 
-    #taste-it {
-        ;
+    #heading-taste-it {
+        text-align: center;
+
+        p {
+            font-size: 48px;
+        }
     }
 
-    #subscription-box {
+    #sub-box {
         display: flex;
         gap: 30px;
         justify-content: center;
-    }
 
-    #subscription-box1 {
-            width: 350px;
+        button {
+            height: 50px;
+            font-size: 18px;
         }
-    #subscription-box2 {
-            width: 350px;
+    }
+     .subscription-box {
+         width: 350px;
+         padding: 21px 44px;
         }
     
 

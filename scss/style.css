@@ -254,13 +254,13 @@ footer img {
   color: #FFFFFF;
 }
 
-.subscribtion-box {
+.subscription-box {
   padding: 21px;
   border-radius: 6px;
   margin-bottom: 49px;
 }
 
-.subscribtion-box img {
+.subscription-box img {
   padding: 18px 18px 18px 2px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -316,6 +316,10 @@ footer img {
   margin-bottom: 30px;
 }
 
+.margin-bottom-38px {
+  margin-bottom: 38px;
+}
+
 .letter-spacing-0425 {
   letter-spacing: -0.425px;
 }
@@ -358,11 +362,25 @@ footer img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 163px;
+  }
+  #footer-logo {
+    width: 318px;
+  }
+  #footer-logo p {
+    font-size: 25px;
+  }
+  #footer-logo #footer-text {
+    font-size: 16px;
   }
   #footer-menu {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    gap: 66px;
+    margin-left: 80px;
   }
   #customer-story {
     padding: 16px 57px;
@@ -372,6 +390,9 @@ footer img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #customer {
     padding: 46px 30px;
@@ -394,7 +415,13 @@ footer img {
   #customer-text {
     width: 245px;
   }
-  #subscription-box {
+  #heading-taste-it {
+    text-align: center;
+  }
+  #heading-taste-it p {
+    font-size: 48px;
+  }
+  #sub-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -403,11 +430,13 @@ footer img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  #subscription-box1 {
-    width: 350px;
+  #sub-box button {
+    height: 50px;
+    font-size: 18px;
   }
-  #subscription-box2 {
+  .subscription-box {
     width: 350px;
+    padding: 21px 44px;
   }
 }
 /*# sourceMappingURL=style.css.map */
