@@ -7,7 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet" >
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <link rel="stylesheet" href="../scss/style.css">
 
@@ -28,60 +28,87 @@
     <section></section>
     <section></section>
 
-    <section>
+    <section id="customer-story">
 
-        <h2 class="karla-blue-15px">Customers' story</h2>
+        <div id="customer">
+            <h2 class="karla-blue-15px">Customers' story</h2>
 
-        <p class="karla-black-30px">50k+ users are <br> showing love.</p>
+            <p class="karla-black-30px">50k+ users are <br> showing love.</p>
 
-        <p class="karla-15px line-height-32px grey">
-            We designed and tested prototypes that helped identify
-            pain points in the account creation process. Together,
-            we shaped the new standard.
-
-        </p>
-
-        <div class="box">
-
-            <p>
-                "You made it so simple. My new site is so much faster and
-                easier to work with than my old site.
-                I just choose the page, make the change and click save."
+            <p id="customer-text" class="karla-15px line-height-32px grey">
+                We designed and tested prototypes that helped identify
+                pain points in the account creation process. Together,
+                we shaped the new standard.
             </p>
-
-            <div class="flex">
-
-                <img src="../img/ovalcameron.png" alt="Cameron" class="oval">
-                <div class="card-user-info">
-                    <p class="card-user-name">Cameron Anderson</p>
-                    <p class="card-user-job">Designer</p>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="box">
-
-            <p>
-                “Finally, I’ve found a template that covers
-                all bases for a bootstrapped startup.
-                We were able to launch in days, not months.”
-            </p>
-
-            <div class="flex">
-
-                <img src="../img/ovalcatherine.png" alt="Catherine" class="oval">
-                <div class="card-user-info">
-                    <p class="card-user-name">Catherine Simmons</p>
-                    <p class="card-user-job">Marketer</p>
-                </div>
-
-            </div>
-
         </div>
 
 
+        <div id="testimonies">
+
+            <div class="box">
+                <p>
+                    "You made it so simple. My new site is so much faster and
+                    easier to work with than my old site.
+                    I just choose the page, make the change and click save."
+                </p>
+                <div class="flex">
+                    <img src="../img/ovalcameron.png" alt="Cameron" class="oval">
+                    <div class="card-user-info">
+                        <p class="card-user-name">Cameron Anderson</p>
+                        <p class="card-user-job">Designer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>
+                    “Finally, I’ve found a template that covers
+                    all bases for a bootstrapped startup.
+                    We were able to launch in days, not months.”
+                </p>
+                <div class="flex">
+                    <img src="../img/ovalcatherine.png" alt="Catherine" class="oval">
+                    <div class="card-user-info">
+                        <p class="card-user-name">Catherine Simmons</p>
+                        <p class="card-user-job">Marketer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hidden-testimonies">
+
+            <div class="box">
+                <p>
+                    “Simply the best. Better than all the rest.
+                    I’d recommend this product to beginners and advanced users.”
+                </p>
+                <div class="flex">
+                    <img src="../img/Ovalleo.png" alt="Leo" class="oval">
+                    <div class="card-user-info">
+                        <p class="card-user-name">Leo Morton</p>
+                        <p class="card-user-job">Marketer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <p>
+                    "With Shades, it’s quicker with the customer,
+                    the customer is more ensured of getting exactly
+                    what they ordered, and I’m all for the efficiency."
+                </p>
+                <div class="flex">
+                    <img src="../img/Ovalharvey.png" alt="Harvey" class="oval">
+                    <div class="card-user-info">
+                        <p class="card-user-name">Harvey Ingram</p>
+                        <p class="card-user-job">UX Designer</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
 
     </section>
 
@@ -102,8 +129,9 @@
             Ready to use our service? <br>
             Choose a package.
         </p>
+    <div id="subscribtion-box">
 
-        <div class="subscribtion-box light-dark-blue-bg">
+        <div id="subscription-box1" class="subscribtion-box light-dark-blue-bg">
             <p class="karla-13px medium-light-grey">Basic</p>
 
             <p class="karla-20px white"> <sup class="karla-dollar-sign white">$</sup>
@@ -125,12 +153,12 @@
 
             <div class="flex">
                 <img src="../img/path.png" alt="check">
-                <p class="karla-15px light-grey"><strike>Custom Domain Names</strike></p>
+                <p class="karla-15px light-grey"><del>Custom Domain Names</del></p>
             </div>
 
             <div class="flex">
                 <img src="../img/path.png" alt="check">
-                <p class="karla-15px light-grey"> <strike>Unlimited Emails</p></strike>
+                <p class="karla-15px light-grey"> <del>Unlimited Emails</del></p>
             </div>
 
             <button class="karla-12px white light-blue-bg">Start free trial</button>
@@ -139,14 +167,12 @@
 
         </div>
 
-
-
-        <div class="subscribtion-box white-bg">
+        <div id="subscription-box2" class="subscribtion-box white-bg">
             <div class="flex align-items-center space-between">
                 <p class="karla-13px grey">Pro</p>
-                <div class="badge"> <p>Popular</p> </div>
-               
-
+                <div class="badge">
+                    <p>Popular</p>
+                </div>
             </div>
 
             <p class="karla-20px black"> <sup class="karla-dollar-sign black">$</sup>
@@ -181,53 +207,60 @@
             <p class="karla-12px light-grey">No credit card required</p>
 
         </div>
+    </div>
 
     </section>
 
     <footer>
-        <div class="flex align-items-center">
-            <img src="../img/3layers.png" alt="Shades logo">
-            <p class="rubik-12px black">Shades</p>
+        <div id="footer-logo">
+            <div class="flex align-items-center">
+                <img src="../img/3layers.png" alt="Shades logo">
+                <p class="rubik-12px black">Shades</p>
+            </div>
+            <p class="karla-12px grey margin-bottom-30px">
+                Big, small, online, offline, local. Size doesn't matter.
+                We work on diverse projects for top
+                brands as well as for cool startups.
+            </p>
+            <div class="flex gap-10px margin-bottom-30px">
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-google"></i>
+
+            </div>
         </div>
-        <p class="karla-12px grey margin-bottom-30px">
-            Big, small, online, offline, local. Size doesn't matter.
-            We work on diverse projects for top
-            brands as well as for cool startups.
-        </p>
-        <div class="flex gap-10px margin-bottom-30px">
-            <i class="bi bi-twitter"></i>
-            <i class="bi bi-facebook"></i>
-            <i class="bi bi-google"></i>
-            
+
+        <div id="footer-menu">
+
+            <p class="karla-14px grey">Help Menu</p>
+            <ul>
+                <li>About</li>
+                <li>Features</li>
+                <li>Works</li>
+                <li>Career</li>
+
+            </ul>
+
+            <p class="karla-14px grey">Support</p>
+
+            <ul>
+                <li>Contact</li>
+                <li>Help & Support</li>
+                <li>Privacy Policy</li>
+                <li>Terms & Conditions</li>
+
+            </ul>
+
+            <p class="karla-14px grey">Products</p>
+
+            <ul>
+                <li>Shades Pro</li>
+                <li>Essential Blocks</li>
+                <li>Avasta Dash</li>
+                <li>vApp Landing Page</li>
+            </ul>
         </div>
 
-        <p class="karla-14px grey">Help Menu</p>
-        <ul>
-            <li>About</li>
-            <li>Features</li>
-            <li>Works</li>
-            <li>Career</li>
-
-        </ul>
-
-        <p class="karla-14px grey">Support</p>
-
-        <ul>
-            <li>Contact</li>
-            <li>Help & Support</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-
-        </ul>
-
-        <p class="karla-14px grey">Products</p>
-
-        <ul>
-            <li>Shades Pro</li>
-            <li>Essential Blocks</li>
-            <li>Avasta Dash</li>
-            <li>vApp Landing Page</li>
-        </ul>
     </footer>
 </body>
 

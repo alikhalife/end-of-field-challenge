@@ -128,6 +128,10 @@
   letter-spacing: -0.68px;
 }
 
+#testimonies {
+  display: none;
+}
+
 body {
   margin: 0px;
   background: #E3EEF8;
@@ -347,5 +351,63 @@ footer img {
   line-height: 28px;
   letter-spacing: -0.4px;
   color: #666666;
+}
+
+@media only screen and (min-width: 415px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #customer-story {
+    padding: 16px 57px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #customer {
+    padding: 46px 30px;
+  }
+  #testimonies {
+    display: block;
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #testimonies .box {
+    width: 224px;
+  }
+  #hidden-testimonies {
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #hidden-testimonies .box {
+    width: 224px;
+  }
+  #customer-text {
+    width: 245px;
+  }
+  #subscription-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #subscription-box1 {
+    width: 350px;
+  }
+  #subscription-box2 {
+    width: 350px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

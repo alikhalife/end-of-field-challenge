@@ -1,6 +1,10 @@
 @import 'colors';
 @import 'fonts';
 
+#testimonies {
+    display: none;
+}
+
 body {
     margin: 0px;
     background: #E3EEF8;
@@ -201,7 +205,6 @@ footer {
         line-height: 28px;
         letter-spacing: -0.31875px;
         color: #1F1F1F;
-
     }
 
     .card-user-job {
@@ -212,7 +215,74 @@ footer {
         line-height: 28px;
         letter-spacing: -0.4px;
         color: #666666;
-
     }
 }
 
+@media only screen and (min-width: 415px) {
+
+    footer {
+        display: flex;
+    }
+
+    // #footer-logo {
+
+    // }
+
+    #footer-menu {
+        display: flex;
+    }
+
+    #customer-story {
+        padding: 16px 57px;
+        display: flex;
+        align-items: center;
+    }
+
+    #customer {
+        padding: 46px 30px;
+    }
+
+    #testimonies {
+        display: block;
+        margin-top: 29px;
+        margin-right: 24px;
+
+        .box {
+            width: 224px;
+        }
+    }
+
+    #hidden-testimonies {
+        margin-top: 29px;
+        margin-right: 24px;
+
+        .box {
+            width: 224px;
+        }
+    }
+
+    #customer-text {
+        width: 245px;
+    }
+
+    #taste-it {
+        ;
+    }
+
+    #subscription-box {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    #subscription-box1 {
+            width: 350px;
+        }
+    #subscription-box2 {
+            width: 350px;
+        }
+    
+
+}
+
+    
