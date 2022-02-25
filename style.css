@@ -16,9 +16,16 @@ header {
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 1200px) {
+  header .logo {
+    font-size: 25px;
+  }
+}
+
 /*ḧeader*/
 /*first section*/
 .firstSection {
+  padding-top: 3%;
   width: 80%;
   margin: 0 auto;
 }
@@ -36,10 +43,23 @@ header {
           align-items: center;
 }
 
+@media only screen and (min-width: 1200px) {
+  .present {
+    width: 65%;
+    margin: auto;
+  }
+}
+
 .present h2 {
   font-size: 10px;
   letter-spacing: 3px;
   color: #666666;
+}
+
+@media only screen and (min-width: 1200px) {
+  .present h2 {
+    font-size: 15px;
+  }
 }
 
 .present h3 {
@@ -48,11 +68,25 @@ header {
   text-align: center;
 }
 
+@media only screen and (min-width: 1200px) {
+  .present h3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+
 .present p {
   color: #666666;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .present p {
+    font-size: 21px;
+    line-height: 36px;
+  }
 }
 
 .present .emailAndStarted {
@@ -75,6 +109,12 @@ header {
   font-size: 12px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .present input {
+    font-size: 18px;
+  }
+}
+
 .present button {
   color: white;
   background-color: #FC593B;
@@ -83,9 +123,21 @@ header {
   font-size: 12px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .present button {
+    font-size: 18px;
+  }
+}
+
 .present .trusted {
   font-size: 10px;
   line-height: 12px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .present .trusted {
+    font-size: 17px;
+  }
 }
 
 .advantages {
@@ -99,6 +151,22 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .advantages {
+    padding: 5% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .adv {
@@ -118,13 +186,24 @@ header {
 /*second section*/
 .backgroundSecondSection {
   background-color: #258AFF;
-  padding: 0 0 10% 0;
+  padding: 10% 0;
 }
 
 .secondSection {
   width: 80%;
   margin: 0 auto;
   color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .secondSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 .secondSectionText {
@@ -152,10 +231,23 @@ header {
   letter-spacing: 2.5px;
 }
 
+@media only screen and (min-width: 1200px) {
+  .secondSectionText h3 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+}
+
 .secondSectionText p {
   color: #E4E4E4;
   font-size: 15px;
   line-height: 32px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .secondSectionText p {
+    font-size: 18px;
+  }
 }
 
 .secondSectionText button {
@@ -163,13 +255,14 @@ header {
   font-weight: bold;
   color: #258AFF;
   background-color: white;
-  padding: 3% 15%;
+  padding: 15px 70px;
   border-radius: 0.5em;
 }
 
 /*second section*/
 /*third section*/
 .thirdSection {
+  padding: 4% 0;
   width: 80%;
   margin: 0 auto;
   display: -webkit-box;
@@ -182,6 +275,36 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media only screen and (min-width: 1200px) {
+  .thirdSection {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.thirdSection .sameThanAbove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.thirdSection .sameThanAbove h2 {
+  color: #258AFF;
+}
+
+.thirdSection .sameThanAbove p {
+  color: #666666;
 }
 
 .thirdSection .easy, .thirdSection .beautiful {
@@ -197,12 +320,56 @@ header {
           align-items: center;
 }
 
+.thirdSection .easy h4, .thirdSection .beautiful h4 {
+  font-size: 20px;
+  letter-spacing: -1;
+}
+
 .thirdSection .easy p, .thirdSection .beautiful p {
+  color: #666666;
+  font-size: 15px;
+  line-height: 28px;
   text-align: center;
 }
 
-.thirdSection img {
+@media only screen and (min-width: 1200px) {
+  .thirdSection .easy p, .thirdSection .beautiful p {
+    text-align: left;
+  }
+}
+
+.thirdSection .easy img, .thirdSection .beautiful img {
+  color: white;
+}
+
+@media only screen and (min-width: 1200px) {
+  .thirdSection .easy, .thirdSection .beautiful {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .thirdSection .easyBeautiful {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .thirdSection .gauche {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.thirdSection .img {
   border-radius: 1em;
+  max-width: 90%;
 }
 
 /*third section*/
