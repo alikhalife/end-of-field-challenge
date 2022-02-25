@@ -1,78 +1,26 @@
-/* reset H elements*/
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
-a, h1, h2, h3, h4, h5, h6 {
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  color: inherit;
-  text-decoration: none;
-}
-
-/* reset H elements*/
+@charset "UTF-8";
 body {
-  background-color: #E3EEF8;
   font-family: 'Karla', sans-serif;
+  background-color: #E3EEF8;
+  color: #1F1F1F;
 }
 
-.all {
-  max-width: 75%;
-  margin: auto;
-}
-
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-header button {
+button {
   background: none;
   border: 0;
 }
 
+/*ḧeader*/
+header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*ḧeader*/
+/*first section*/
 .firstSection {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #666666;
-  font-size: 75%;
-  padding: 7% 0 7% 0;
-}
-
-.firstSection h3, .firstSection p {
-  text-align: center;
-}
-
-.firstSection h3 {
-  color: black;
-  font-size: 200%;
-  font-weight: 700;
-}
-
-.firstSection input {
-  border: 0;
-  border-radius: 0.4em;
-  padding: 3% 0 3% 2%;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .present {
@@ -86,16 +34,28 @@ header button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.present h2 {
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: #666666;
+}
+
+.present h3 {
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
 }
 
 .present p {
-  line-height: 28px;
+  color: #666666;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
 }
 
-.emailAndStarted {
+.present .emailAndStarted {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,17 +66,26 @@ header button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.emailAndStarted button {
+.present input {
+  border: none;
+  border-radius: 0.5em;
+  padding: 5% 0 3% 5%;
+  font-size: 12px;
+}
+
+.present button {
   color: white;
   background-color: #FC593B;
-  border: none;
-  padding: 2% 0;
-  border-radius: 0.4em;
+  border-radius: 0.5em;
+  padding: 2%;
+  font-size: 12px;
+}
+
+.present .trusted {
+  font-size: 10px;
+  line-height: 12px;
 }
 
 .advantages {
@@ -130,49 +99,35 @@ header button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.advantages .adv {
+.adv {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
-.advantages .adv .advText {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+/*first section*/
+/*second section*/
+.backgroundSecondSection {
+  background-color: #258AFF;
+  padding: 0 0 10% 0;
 }
 
 .secondSection {
-  position: relative;
-  right: 15%;
-  width: 130%;
-  margin: auto;
-  background-color: #258AFF;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.secondSectionText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,57 +135,43 @@ header button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 7% 0 7% 0;
-}
-
-.secondSection button {
-  color: #258AFF;
-  border: none;
-  padding: 2% 25%;
-  border-radius: 0.4em;
-}
-
-.secondSection p {
-  line-height: 28px;
-}
-
-.secondSection h3 {
-  font-size: 200%;
-  font-weight: 700;
-}
-
-.secondSection img {
-  float: inline-start;
-  margin: 5px;
-}
-
-.secondSectionText {
-  width: 80%;
-  margin: auto;
-  color: white;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .secondSectionText h2 {
   font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 3px;
 }
 
 .secondSectionText h3 {
   font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 2.5px;
 }
 
 .secondSectionText p {
+  color: #E4E4E4;
   font-size: 15px;
+  line-height: 32px;
 }
 
+.secondSectionText button {
+  font-family: 'Karla', sans-serif;
+  font-weight: bold;
+  color: #258AFF;
+  background-color: white;
+  padding: 3% 15%;
+  border-radius: 0.5em;
+}
+
+/*second section*/
+/*third section*/
 .thirdSection {
-  max-width: 75%;
-  padding: 7% 0 7% 0;
+  width: 80%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -241,113 +182,234 @@ header button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.thirdSection .easy, .thirdSection .beautiful {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thirdSection .easy p, .thirdSection .beautiful p {
+  text-align: center;
 }
 
 .thirdSection img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  border-radius: 1em;
+}
+
+/*third section*/
+/*
+a, h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    background-color: #E3EEF8;
+    font-family: 'Karla', sans-serif;
+}
+
+.all {
+    width: 75%;
+    margin: auto;
+}
+
+@mixin topAndBottomPadding {
+    padding: 7% 0 7% 0;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin flexColumnLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+@mixin flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin grayAndSmall {
+    color: #666666;
+    font-size: 75%;
+}
+
+@mixin lineHeight {
+    line-height: 28px;
+}
+
+$blue: #258AFF;
+
+header {
+    @include flexRow;
+    button {
+        background: none;
+        border: 0;
+    }
+}
+
+
+.firstSection {
+    @include flexColumn;
+    @include grayAndSmall;
+    @include topAndBottomPadding;
+    h3, p {
+        text-align: center
+    }
+    h3 {
+        color: black;
+        font-size: 200%;
+        font-weight: 700
+    }
+    input {
+        border: 0;
+        border-radius: 0.4em;
+        padding: 3% 0 3% 2%;
+    }
+}
+
+.present {
+    @include flexColumn;
+    p {
+        @include lineHeight;
+    }
+}
+
+.emailAndStarted {
+    @include flexRow;
+    button {
+        color: white;
+        background-color: #FC593B;
+        border: none;
+        padding: 2% 0;
+        border-radius: 0.4em;
+    }
+}
+
+.advantages {
+    @include flexColumn;
+    .adv {
+        @include flexColumn;
+        .advText {
+            @include flexColumnLeft()
+        }
+    }
+}
+
+.secondSection {
+    position: relative;
+    right: 15%;
+    width: 130%;
+    margin: auto;
+    background-color: $blue;
+    @include flexColumnLeft;
+    @include topAndBottomPadding;
+    button {
+        color: $blue;
+        border: none;
+        padding: 2% 25%;
+        border-radius: 0.4em;
+    }
+    p {
+        @include lineHeight
+    }
+    h3 {
+        font-size: 200%;
+        font-weight: 700
+    }
+    img {
+        float: inline-start;
+        margin: 5px;
+    }
+}
+
+.secondSectionText {
+    width: 80%;
+    margin: auto;
+    color: white;
+    h2 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    p {
+     font-size: 15px;
+    }
+}
+
+.gridThirdSection {
+    @include topAndBottomPadding;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .gridThidSection.child {
+        margin: 0;
+    }
 }
 
 .sameThanAbove {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.sameThanAbove h3 {
-  font-size: 30px;
-  font-weight: 700;
+    @include flexColumn;
+    grid-column: span 1;
+    grid-row: span 1;
+    h3 {
+        font-size: 30px;
+        font-weight: 700;
+    }
 }
 
 .blueText {
-  color: #258AFF;
+    color: $blue;
 }
 
 .easyBeautiful {
-  max-width: 75%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+    @include flexColumnLeft;
 }
 
-.easy {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.easy, .beautiful {
+    @include flexColumnLeft;
+    grid-column: span 1;
+    grid-row: span 1;
+    h4 {
+        font-size: 20px;
+        font-weight: bold;
+    }
 }
 
-.easy h4 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.beautiful {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.beautiful h4 {
-  font-size: 20px;
-  font-weight: bold;
+.img {
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 .advText {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: left;
-      -ms-flex-align: left;
-          align-items: left;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+    @include flexColumnLeft()
+} */
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,160 @@
-/* reset H elements*/
+@mixin widthAndMargin {
+    width: 80%;
+    margin: 0 auto;
+}
+@mixin flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@mixin flexRowStart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+@mixin flexColumnLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+$grey: #666666;
+$blue: #258AFF;
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #E3EEF8;
+    color: #1F1F1F;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+
+/*ḧeader*/
+header {
+    @include widthAndMargin()
+}
+/*ḧeader*/
+
+/*first section*/
+.firstSection {
+    @include widthAndMargin()
+}
+
+.present {
+    @include flexColumnCenter();
+    h2 {
+        font-size: 10px;
+        letter-spacing: 3px;
+        color: $grey;
+    }
+    h3 {
+        font-size: 40px;
+        line-height: 45px;
+        text-align: center;
+    }
+    p {
+        color: $grey;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .emailAndStarted {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    input {
+        border: none;
+        border-radius: 0.5em;
+        padding: 5% 0 3% 5%;
+        font-size: 12px;
+    }
+    button {
+        color: white;
+        background-color: #FC593B;
+        border-radius: 0.5em;
+        padding: 2%;
+        font-size: 12px;
+    }
+    .trusted {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+.advantages {
+    @include flexColumnCenter()
+}
+
+.adv {
+    @include flexRowStart()
+}
+/*first section*/
+
+/*second section*/
+.backgroundSecondSection {
+    background-color: $blue;
+    padding: 0 0 10% 0;
+}
+.secondSection {
+    @include widthAndMargin();
+    color: white;
+}
+
+.secondSectionText {
+    @include flexColumnLeft();
+    h2 {
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 3px
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 2.5px
+    }
+    p {
+        color: #E4E4E4;
+        font-size: 15px;
+        line-height: 32px;
+    }
+    button {
+        font-family: 'Karla', sans-serif;
+        font-weight: bold;
+        color: $blue;
+        background-color: white;
+        padding: 3% 15%;
+        border-radius: 0.5em;
+    }
+}
+/*second section*/
+
+/*third section*/
+.thirdSection {
+    @include widthAndMargin();
+    @include flexColumnCenter();
+    .easy, .beautiful {
+        @include flexColumnCenter();
+        p {
+            text-align: center;
+        }
+    }
+    img {
+        border-radius: 1em;
+    }
+}
+/*third section*/
+
+
+
+
+
+
+/*
 a, h1, h2, h3, h4, h5, h6 {
     font-weight: inherit;
     font-style: inherit;
@@ -6,7 +162,6 @@ a, h1, h2, h3, h4, h5, h6 {
     color: inherit;
     text-decoration: none;
 }
-/* reset H elements*/
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
@@ -16,7 +171,7 @@ body {
 }
 
 .all {
-    max-width: 75%;
+    width: 75%;
     margin: auto;
 }
 
@@ -154,17 +309,25 @@ header {
     }
 }
 
-.thirdSection {
-    max-width: 75%;
+.gridThirdSection {
     @include topAndBottomPadding;
-    @include flexColumn;
-    img {
-        object-fit: cover
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    h3 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 70px;
+    }
+    .gridThidSection.child {
+        margin: 0;
     }
 }
 
 .sameThanAbove {
     @include flexColumn;
+    grid-column: span 1;
+    grid-row: span 1;
     h3 {
         font-size: 30px;
         font-weight: 700;
@@ -176,26 +339,24 @@ header {
 }
 
 .easyBeautiful {
-    max-width: 75%;
     @include flexColumnLeft;
 }
 
-.easy {
+.easy, .beautiful {
     @include flexColumnLeft;
+    grid-column: span 1;
+    grid-row: span 1;
     h4 {
         font-size: 20px;
         font-weight: bold;
     }
 }
 
-.beautiful {
-    @include flexColumnLeft;
-    h4 {
-        font-size: 20px;
-        font-weight: bold;
-    }
+.img {
+    grid-column: span 1;
+    grid-row: span 1;
 }
 
 .advText {
     @include flexColumnLeft()
-}
+} */
