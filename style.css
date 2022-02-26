@@ -12,14 +12,84 @@ button {
 
 /*ḧeader*/
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 80%;
   margin: 0 auto;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo img {
+  height: 25px;
+  margin-right: 4px;
 }
 
 @media only screen and (min-width: 1200px) {
   header .logo {
     font-size: 25px;
   }
+}
+
+header nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+}
+
+header nav button {
+  font-size: 16px;
+  letter-spacing: -1;
+  font-weight: bold;
+  color: #258AFF;
+  border: 2px solid #258AFF;
+  border-radius: 0.2em;
+  padding: 7px 18px;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  text-decoration: none;
+  margin: 0 3%;
+}
+
+header ul a {
+  color: #1F1F1F;
+  font-size: 16px;
+  letter-spacing: -0.5;
+  text-decoration: none;
 }
 
 /*ḧeader*/

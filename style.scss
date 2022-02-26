@@ -35,10 +35,52 @@ button {
 
 /*ḧeader*/
 header {
+    display: flex;
+    align-items: center;
     @include widthAndMargin();
     .logo {
+        display: flex;
+        align-items: center;
+        img {
+            height: 25px;
+            margin-right: 4px;
+        }
         @media only screen and (min-width: 1200px) {
             font-size: 25px;  
+        }
+    }
+    nav {        
+        @media only screen and (max-width: 600px) {
+            display: none;            
+        }
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button {
+            font-size: 16px;
+            letter-spacing: -1;
+            font-weight: bold;
+            color: $blue;
+            border: 2px solid $blue;
+            border-radius: 0.2em;
+            padding: 7px 18px;
+        }
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            text-decoration: none;
+            margin: 0 3%;
+        }
+        a {
+            color: #1F1F1F;
+            font-size: 16px;
+            letter-spacing: -0.5;
+            text-decoration: none;
         }
     }
 }
