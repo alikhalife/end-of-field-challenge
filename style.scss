@@ -165,6 +165,9 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        .advText {
+            display: block !important;
+        }
     }
 }
 
@@ -225,8 +228,9 @@ header {
 /*third section*/
 .thirdSection {
     padding: 4% 0;
+    display: flex;
+    justify-content: space-between;
     @include widthAndMargin();
-    @include flexColumnCenter();
     @media only screen and (min-width: 1200px) {
         flex-direction: row;
     }
@@ -236,10 +240,20 @@ header {
         flex-direction: column;
         align-items: flex-start;
         h2 {
-            color: $blue
+            color: $blue;
+            font-size: 15px;
+            letter-spacing: 2.8px;
+            font-weight: bold;
+        }
+        h3 {
+            font-size: 48px;
+            line-height: 56px;
+            font-weight: bold;
         }
         p {
-            color: $grey
+            color: $grey;
+            font-size: 18px;
+            line-height: 32px;
         }
     }
     .easy, .beautiful {
@@ -269,13 +283,14 @@ header {
             display: flex;
         }
         .gauche {
+            width: 50%;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
         }
     }
     .img {
         border-radius: 1em;
-        max-width: 90%;
     }
 }
 /*third section*/
