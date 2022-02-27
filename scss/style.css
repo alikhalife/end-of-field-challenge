@@ -56,7 +56,17 @@
   color: #1F1F1F;
 }
 
-.karla-white-30px {
+.karla-black-50px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #1F1F1F;
+}
+
+.karla-white-25px {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
@@ -101,13 +111,13 @@
   font-size: 15px;
 }
 
-.karla-dollar-sign {
+.karla-20px {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -1.2px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.68px;
 }
 
 .karla-30px {
@@ -119,13 +129,13 @@
   letter-spacing: -2px;
 }
 
-.karla-20px {
+.karla-dollar-sign {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: -0.68px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -1.2px;
 }
 
 #testimonies {
@@ -138,7 +148,7 @@ body {
 }
 
 section {
-  padding: 0px 57px;
+  padding: 17px 59px 0px;
 }
 
 button {
@@ -166,11 +176,15 @@ ul li {
 }
 
 footer {
-  margin: 0px 57px;
+  margin: 38px 57px 0px;
 }
 
 footer img {
   padding: 18px 5px 18px 2px;
+}
+
+footer #footer-logo img {
+  width: 11px;
 }
 
 #taste-it {
@@ -357,14 +371,15 @@ footer img {
   color: #666666;
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 600px) {
   footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-    padding-top: 163px;
+    padding-top: 118px;
+    padding-left: 21px;
   }
   #footer-logo {
     width: 318px;
@@ -373,8 +388,96 @@ footer img {
     font-size: 25px;
   }
   #footer-logo #footer-text {
-    font-size: 16px;
+    font-size: 13px;
   }
+  #footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 60px;
+    margin-left: 40px;
+  }
+  #footer-menu p {
+    font-size: 15px;
+  }
+  #footer-menu span {
+    font-size: 14px;
+    letter-spacing: -1.4px;
+  }
+  #footer-menu .margin-bottom-30px {
+    margin: 51px 0px;
+  }
+  #customer {
+    padding: 46px 30px;
+    text-align: center;
+  }
+  #customer h2 {
+    font-size: 15px;
+  }
+  #customer p {
+    font-size: 48px;
+  }
+  #customer #customer-text {
+    width: 364px;
+    margin-left: 140px;
+    font-size: 18px;
+  }
+  #global-testimonies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #testimonies {
+    display: block;
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #testimonies .box {
+    width: 224px;
+  }
+  #hidden-testimonies {
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #hidden-testimonies .box {
+    width: 224px;
+  }
+  #heading-taste-it {
+    text-align: center;
+  }
+  #heading-taste-it p {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  #sub-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sub-box button {
+    height: 50px;
+    font-size: 18px;
+  }
+  .subscription-box {
+    width: 350px;
+    padding: 21px 44px;
+  }
+  .logos {
+    gap: 10px;
+  }
+  .karla-black-30px {
+    line-height: 65px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
   #footer-menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -397,46 +500,14 @@ footer img {
   #customer {
     padding: 46px 30px;
   }
-  #testimonies {
-    display: block;
-    margin-top: 29px;
-    margin-right: 24px;
+  #customer .karla-black-30px {
+    margin: 48px 0px 16px;
   }
-  #testimonies .box {
-    width: 224px;
+  #customer #customer-text {
+    margin-left: 0px;
   }
-  #hidden-testimonies {
-    margin-top: 29px;
-    margin-right: 24px;
-  }
-  #hidden-testimonies .box {
-    width: 224px;
-  }
-  #customer-text {
-    width: 245px;
-  }
-  #heading-taste-it {
-    text-align: center;
-  }
-  #heading-taste-it p {
-    font-size: 48px;
-  }
-  #sub-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 30px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  #sub-box button {
-    height: 50px;
-    font-size: 18px;
-  }
-  .subscription-box {
-    width: 350px;
-    padding: 21px 44px;
+  .box {
+    margin-top: 35px;
   }
 }
 /*# sourceMappingURL=style.css.map */

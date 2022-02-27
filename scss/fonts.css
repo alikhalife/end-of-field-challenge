@@ -28,7 +28,17 @@
   color: #1F1F1F;
 }
 
-.karla-white-30px {
+.karla-black-50px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #1F1F1F;
+}
+
+.karla-white-25px {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
@@ -73,13 +83,13 @@
   font-size: 15px;
 }
 
-.karla-dollar-sign {
+.karla-20px {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
-  line-height: 18px;
-  letter-spacing: -1.2px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.68px;
 }
 
 .karla-30px {
@@ -91,12 +101,12 @@
   letter-spacing: -2px;
 }
 
-.karla-20px {
+.karla-dollar-sign {
   font-family: Karla;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: -0.68px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -1.2px;
 }
 /*# sourceMappingURL=fonts.css.map */

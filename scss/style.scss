@@ -11,7 +11,7 @@ body {
 }
 
 section {
-    padding: 0px 57px;
+    padding: 17px 59px 0px;
 
 }
 
@@ -42,10 +42,15 @@ ul {
 }
 
 footer {
-    margin: 0px 57px;
+    margin: 38px 57px 0px;
 
     img {
         padding: 18px 5px 18px 2px;
+    }
+    #footer-logo {
+        img {
+            width: 11px;
+        }
     }
 }
 
@@ -220,12 +225,13 @@ footer {
     }
 }
 
-@media only screen and (min-width: 415px) {
+@media only screen and (min-width: 600px) {
 
     footer {
         display: flex;
         justify-content: space-around;
-        padding-top: 163px;
+        padding-top: 118px;
+        padding-left: 21px;
     }
 
     #footer-logo {
@@ -235,26 +241,54 @@ footer {
         }
         
         #footer-text {
-            font-size: 16px;
+            font-size: 13px;
         }
     }
 
     #footer-menu {
         display: flex;
-        gap: 66px;
-        margin-left: 80px;
-    }
+        gap: 60px;
+        margin-left: 40px;
+        
+        p {
+            font-size: 15px;
+        }
 
-    #customer-story {
-        padding: 16px 57px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        span {
+            font-size: 14px;
+            letter-spacing: -1.4px;
+        }
+
+        .margin-bottom-30px {
+            margin: 51px 0px;
+        }
+
     }
 
     #customer {
         padding: 46px 30px;
-    }
+        text-align:center;
+
+        h2 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 48px;
+        }
+
+        #customer-text {
+            width: 364px;
+            margin-left: 140px;
+            font-size: 18px;
+        }
+    } 
+
+   
+    #global-testimonies {
+        display: flex;
+        justify-content: center;
+  }
 
     #testimonies {
         display: block;
@@ -275,15 +309,12 @@ footer {
         }
     }
 
-    #customer-text {
-        width: 245px;
-    }
-
     #heading-taste-it {
         text-align: center;
 
         p {
-            font-size: 48px;
+            font-size: 46px;
+            line-height: 50px;
         }
     }
 
@@ -302,7 +333,43 @@ footer {
          padding: 21px 44px;
         }
     
+    .logos {
+        gap: 10px;
+        }
+
+        .karla-black-30px {
+            line-height: 65px;
+        }
 
 }
 
+    @media only screen and (min-width: 1000px) {
+        #footer-menu {
+            display: flex;
+            gap: 66px;
+            margin-left: 80px;
+        }
     
+        #customer-story {
+            padding: 16px 57px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #customer {
+            padding: 46px 30px;
+
+            .karla-black-30px{
+                margin: 48px 0px 16px;
+            }
+
+            #customer-text {
+                margin-left: 0px;
+            }
+        }
+        .box {
+            margin-top: 35px;
+        }
+    
+    }
