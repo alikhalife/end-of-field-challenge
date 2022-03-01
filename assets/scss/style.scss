@@ -1,0 +1,375 @@
+@import 'colors';
+@import 'fonts';
+
+#testimonies {
+    display: none;
+}
+
+body {
+    margin: 0px;
+    background: #E3EEF8;
+}
+
+section {
+    padding: 17px 59px 0px;
+
+}
+
+button {
+    border-radius: 5px;
+    width: 181px;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 50px;
+
+    li {
+        margin-bottom: 12px;
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 40px;
+        /* or 267% */
+
+        letter-spacing: -0.4px;
+
+        color: #1F1F1F;
+    }
+}
+
+footer {
+    margin: 38px 57px 0px;
+
+    img {
+        padding: 18px 5px 18px 2px;
+    }
+    #footer-logo {
+        img {
+            width: 11px;
+        }
+    }
+}
+
+#taste-it {
+    padding-bottom: 70px;
+}
+
+.box {
+    padding: 21px;
+    margin-top: 43px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+    border-radius: 5px;
+
+    p {
+        margin-top:0px;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: -0.1px;
+        color: #1F1F1F;
+    }
+
+}
+
+.badge {
+    background: #4EAB08;
+    border-radius: 13px;
+    width: 82px;
+    display: flex;
+    justify-content: center;
+    height: 24px;
+
+    p {
+    margin: 6px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: -0.514286px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    }
+}
+
+.light-dark-blue-bg {
+    background: #2B405A;
+}
+
+.white-bg {
+    background: white;
+}
+
+.light-blue-bg {
+    background: #258AFF;
+}
+
+.light-orange-bg {
+    background: #FC593B;;
+}
+
+.dark-blue-bg {
+    background: #192F48;
+
+    h2 {
+        padding-top: 48px;
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 2.8125px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+}
+
+.subscription-box {
+    padding: 21px;
+    border-radius: 6px;
+    margin-bottom: 49px;
+
+    img {
+        padding: 18px 18px 18px 2px;
+        filter: grayscale(100%);
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-10px {
+    gap: 10px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+
+.oval {
+    width: 43px;
+    height: 43px;
+    
+}
+
+.logos {
+    margin-top: 137px;
+    margin-bottom: 165px;
+    mix-blend-mode: luminosity;
+    opacity: 0.5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px 32px;
+
+    img {
+        margin-bottom: 34px;
+    }
+
+}
+
+.margin-bottom-30px {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-38px {
+    margin-bottom: 38px;
+}
+.letter-spacing-0425 {
+    letter-spacing: -0.425px;
+}
+
+.line-height-32px {
+    line-height: 32px;
+}
+
+.card-user-info {
+    margin-left: 22px;
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .card-user-name {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 28px;
+        letter-spacing: -0.31875px;
+        color: #1F1F1F;
+    }
+
+    .card-user-job {
+        font-family: Karla;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 28px;
+        letter-spacing: -0.4px;
+        color: #666666;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 118px;
+        padding-left: 21px;
+    }
+
+    #footer-logo {
+        width: 318px;
+        p {
+            font-size: 25px;
+        }
+        
+        #footer-text {
+            font-size: 13px;
+        }
+    }
+
+    #footer-menu {
+        display: flex;
+        gap: 60px;
+        margin-left: 40px;
+        
+        p {
+            font-size: 15px;
+        }
+
+        span {
+            font-size: 14px;
+            letter-spacing: -1.4px;
+        }
+
+        .margin-bottom-30px {
+            margin: 51px 0px;
+        }
+
+    }
+
+    #customer {
+        padding: 46px 30px;
+        text-align:center;
+
+        h2 {
+            font-size: 15px;
+        }
+
+        p {
+            font-size: 48px;
+        }
+
+        #customer-text {
+            width: 364px;
+            margin-left: 140px;
+            font-size: 18px;
+        }
+    } 
+
+   
+    #global-testimonies {
+        display: flex;
+        justify-content: center;
+  }
+
+    #testimonies {
+        display: block;
+        margin-top: 29px;
+        margin-right: 24px;
+
+        .box {
+            width: 224px;
+        }
+    }
+
+    #hidden-testimonies {
+        margin-top: 29px;
+        margin-right: 24px;
+
+        .box {
+            width: 224px;
+        }
+    }
+
+    #heading-taste-it {
+        text-align: center;
+
+        p {
+            font-size: 46px;
+            line-height: 50px;
+        }
+    }
+
+    #sub-box {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        button {
+            height: 50px;
+            font-size: 18px;
+        }
+    }
+     .subscription-box {
+         width: 350px;
+         padding: 21px 44px;
+        }
+    
+    .logos {
+        gap: 10px;
+        }
+
+        .karla-black-30px {
+            line-height: 65px;
+        }
+
+}
+
+    @media only screen and (min-width: 1000px) {
+        #footer-menu {
+            display: flex;
+            gap: 66px;
+            margin-left: 80px;
+        }
+    
+        #customer-story {
+            padding: 16px 57px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        #customer {
+            padding: 46px 30px;
+
+            .karla-black-30px{
+                margin: 48px 0px 16px;
+            }
+
+            #customer-text {
+                margin-left: 0px;
+            }
+        }
+        .box {
+            margin-top: 35px;
+        }
+    
+    }

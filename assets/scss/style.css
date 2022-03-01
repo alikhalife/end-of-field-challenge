@@ -1,0 +1,513 @@
+.white {
+  color: #FFFFFF;
+}
+
+.black {
+  color: #1F1F1F;
+}
+
+.grey {
+  color: #666666;
+}
+
+.light-grey {
+  color: #878B90;
+}
+
+.medium-light-grey {
+  color: #E5E5E5;
+}
+
+.light-blue {
+  background: #258AFF;
+}
+
+.light-orange {
+  background: #FC593B;
+}
+
+.rubik-12px {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: -1px;
+}
+
+.karla-blue-15px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2.8125px;
+  text-transform: uppercase;
+  color: #258AFF;
+}
+
+.karla-black-30px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #1F1F1F;
+}
+
+.karla-black-50px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #1F1F1F;
+}
+
+.karla-white-25px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -2.52632px;
+  color: #FFFFFF;
+}
+
+.karla-12px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: -0.4px;
+}
+
+.karla-13px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0.433333px;
+  text-transform: uppercase;
+}
+
+.karla-14px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+}
+
+.karla-15px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.karla-20px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.68px;
+}
+
+.karla-30px {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  letter-spacing: -2px;
+}
+
+.karla-dollar-sign {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -1.2px;
+}
+
+#testimonies {
+  display: none;
+}
+
+body {
+  margin: 0px;
+  background: #E3EEF8;
+}
+
+section {
+  padding: 17px 59px 0px;
+}
+
+button {
+  border-radius: 5px;
+  width: 181px;
+  border: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 50px;
+}
+
+ul li {
+  margin-bottom: 12px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 40px;
+  /* or 267% */
+  letter-spacing: -0.4px;
+  color: #1F1F1F;
+}
+
+footer {
+  margin: 38px 57px 0px;
+}
+
+footer img {
+  padding: 18px 5px 18px 2px;
+}
+
+footer #footer-logo img {
+  width: 11px;
+}
+
+#taste-it {
+  padding-bottom: 70px;
+}
+
+.box {
+  padding: 21px;
+  margin-top: 43px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.036062);
+  border-radius: 5px;
+}
+
+.box p {
+  margin-top: 0px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 32px;
+  letter-spacing: -0.1px;
+  color: #1F1F1F;
+}
+
+.badge {
+  background: #4EAB08;
+  border-radius: 13px;
+  width: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 24px;
+}
+
+.badge p {
+  margin: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: -0.514286px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.light-dark-blue-bg {
+  background: #2B405A;
+}
+
+.white-bg {
+  background: white;
+}
+
+.light-blue-bg {
+  background: #258AFF;
+}
+
+.light-orange-bg {
+  background: #FC593B;
+}
+
+.dark-blue-bg {
+  background: #192F48;
+}
+
+.dark-blue-bg h2 {
+  padding-top: 48px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2.8125px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subscription-box {
+  padding: 21px;
+  border-radius: 6px;
+  margin-bottom: 49px;
+}
+
+.subscription-box img {
+  padding: 18px 18px 18px 2px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gap-10px {
+  gap: 10px;
+}
+
+.space-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.align-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oval {
+  width: 43px;
+  height: 43px;
+}
+
+.logos {
+  margin-top: 137px;
+  margin-bottom: 165px;
+  mix-blend-mode: luminosity;
+  opacity: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0px 32px;
+}
+
+.logos img {
+  margin-bottom: 34px;
+}
+
+.margin-bottom-30px {
+  margin-bottom: 30px;
+}
+
+.margin-bottom-38px {
+  margin-bottom: 38px;
+}
+
+.letter-spacing-0425 {
+  letter-spacing: -0.425px;
+}
+
+.line-height-32px {
+  line-height: 32px;
+}
+
+.card-user-info {
+  margin-left: 22px;
+}
+
+.card-user-info p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card-user-info .card-user-name {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: -0.31875px;
+  color: #1F1F1F;
+}
+
+.card-user-info .card-user-job {
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  color: #666666;
+}
+
+@media only screen and (min-width: 600px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding-top: 118px;
+    padding-left: 21px;
+  }
+  #footer-logo {
+    width: 318px;
+  }
+  #footer-logo p {
+    font-size: 25px;
+  }
+  #footer-logo #footer-text {
+    font-size: 13px;
+  }
+  #footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 60px;
+    margin-left: 40px;
+  }
+  #footer-menu p {
+    font-size: 15px;
+  }
+  #footer-menu span {
+    font-size: 14px;
+    letter-spacing: -1.4px;
+  }
+  #footer-menu .margin-bottom-30px {
+    margin: 51px 0px;
+  }
+  #customer {
+    padding: 46px 30px;
+    text-align: center;
+  }
+  #customer h2 {
+    font-size: 15px;
+  }
+  #customer p {
+    font-size: 48px;
+  }
+  #customer #customer-text {
+    width: 364px;
+    margin-left: 140px;
+    font-size: 18px;
+  }
+  #global-testimonies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #testimonies {
+    display: block;
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #testimonies .box {
+    width: 224px;
+  }
+  #hidden-testimonies {
+    margin-top: 29px;
+    margin-right: 24px;
+  }
+  #hidden-testimonies .box {
+    width: 224px;
+  }
+  #heading-taste-it {
+    text-align: center;
+  }
+  #heading-taste-it p {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  #sub-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #sub-box button {
+    height: 50px;
+    font-size: 18px;
+  }
+  .subscription-box {
+    width: 350px;
+    padding: 21px 44px;
+  }
+  .logos {
+    gap: 10px;
+  }
+  .karla-black-30px {
+    line-height: 65px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #footer-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 66px;
+    margin-left: 80px;
+  }
+  #customer-story {
+    padding: 16px 57px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #customer {
+    padding: 46px 30px;
+  }
+  #customer .karla-black-30px {
+    margin: 48px 0px 16px;
+  }
+  #customer #customer-text {
+    margin-left: 0px;
+  }
+  .box {
+    margin-top: 35px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
