@@ -2,6 +2,8 @@
 # End of the field challenge
 Group work by [Ali K](https://github.com/alikhalife) and [philouLeF](https://github.com/philouLeF)
 
+You can find our website by clicking on this link: https://alikhalife.github.io/end-of-field-challenge/
+
 ## Mission
 
 We have to reproduce [this landing page](https://www.figma.com/file/QW2bswyiiy8KFk68EbJnZU/Shade-Digital-Service-Landing-Page-(Community)?node-id=0%3A1) by using HTML, CSS and SCSS only
