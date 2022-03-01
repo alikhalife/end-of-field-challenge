@@ -1,15 +1,10 @@
-<<<<<<< HEAD
-# end-of-field-challenge
 
-
-
-=======
 # End of the field challenge
 Group work by [Ali K](https://github.com/alikhalife) and [philouLeF](https://github.com/philouLeF)
 
 ## Mission
 
-We have to reproduce [this landing page](https://www.figma.com/file/QW2bswyiiy8KFk68EbJnZU/Shade-Digital-Service-Landing-Page-(Community)?node-id=0%3A1) by use HTML and CSS only
+We have to reproduce [this landing page](https://www.figma.com/file/QW2bswyiiy8KFk68EbJnZU/Shade-Digital-Service-Landing-Page-(Community)?node-id=0%3A1) by using HTML, CSS and SCSS only
 
 ## Criteria for self-evaluation
 
@@ -19,10 +14,10 @@ We have to reproduce [this landing page](https://www.figma.com/file/QW2bswyiiy8K
 - Provide a README (hello)
 
 ### HTML
-- It have to be valid and checked with a validator
-- Lighthouse criterias are equal or more than 90%
+- It has to be valid and checked with a validator
+- Lighthouse criteria are equal or more than 90%
 - Good use of semantic
-- Well idented
+- Well indented
 - Accessible
 
 ### CSS
@@ -37,5 +32,4 @@ We have to reproduce [this landing page](https://www.figma.com/file/QW2bswyiiy8K
 - The final result is as close as we can to the mockup
 - Fonts match
 - Colors too
-- Dimensions too (I guess)
->>>>>>> phil
+- Dimensions too (I guess...most probably)
